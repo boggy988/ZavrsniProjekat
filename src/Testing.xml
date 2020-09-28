@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CMS TESTS">
+    <test name="Chrome regression test">
+         <classes>
+             <class name="Tests.AuthTest"/>
+             <class name="Tests.LoginTest"/>
+             <class name="Tests.RegisterTest"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
