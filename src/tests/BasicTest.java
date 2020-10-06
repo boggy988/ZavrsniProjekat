@@ -47,6 +47,7 @@ public abstract class BasicTest {
 			FileUtils.copyFile(ss, new File("screenshots/" + testTime));
 		}
 		this.driver.manage().deleteAllCookies();
+		this.driver.navigate().refresh();
 
 	}
 	
